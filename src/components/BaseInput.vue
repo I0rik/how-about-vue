@@ -58,8 +58,8 @@ function suffixIconClick() {
   border: 1px solid #ccc;
   color: #000;
   border-radius: 10px;
-  margin: 16px 0;
-  padding: 4px 8px;
+  margin: 1em 0;
+  padding: 0.25em 0.5em;
   background-color: #f5f7f9;
 }
 
@@ -77,7 +77,7 @@ input {
   border: none;
   outline: none;
   flex: 1;
-  padding: 0 4px;
+  padding: 0 0.25em;
 }
 
 .prefix-icon,
@@ -90,15 +90,15 @@ input {
 }
 .icon {
   color: #818e9c;
-  width: 24px;
-  height: 24px;
-  margin: 16px 14px 16px;
+  width: 1.5em;
+  height: 1.5em;
+  margin: 1em 0.875em 1em;
 }
 
 .error-message {
   color: #f45236ff;
-  font-size: 12px;
-  margin-top: 4px;
+  font-size: 0.75em;
+  margin-top: 0.25em;
 }
 
 @media (orientation: portrait) {

@@ -55,9 +55,8 @@ async function handleSubmit() {
         @suffix-icon-click="togglePasswordDisplay"
       />
       <p class="forgot-password">Forgot password?</p>
-      <BaseButton @click="handleSubmit">Login</BaseButton>
+      <BaseButton @click="handleSubmit" class="submit-btn">Login</BaseButton>
     </form>
-    <hr />
   </div>
 </template>
 
@@ -71,12 +70,18 @@ async function handleSubmit() {
 .form {
   width: 100%;
   user-select: none;
+  margin-top: 1.375em;
 }
 
 .forgot-password {
   color: #157afe;
   cursor: pointer;
   text-align: right;
+  font-size: 1em;
+}
+
+.submit-btn {
+  margin-top: 1.5em;
 }
 
 @media (orientation: portrait) {
